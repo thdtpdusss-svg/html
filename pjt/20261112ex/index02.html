@@ -9,8 +9,13 @@
     <form action="서버uri" method="get"  name="signupform">
         ID:<input type="text" name="memId" placeholder="Input ID"><br>
         pW:<input type="password" name="mempw" placeholder="Input pw"><br>
-        MAIL:<input type="text" name="memmail" placeholder="Input mail"><br>
-        PHONE:<input type="text" name="memphone" placeholder="input phone"><br>
+        MAIL:<input type="email" name="memmail" placeholder="Input mail"><br>
+        PHONE:
+        <select name="memphone01">
+            <option>010</option>
+            <option>011</option>
+        </select>
+        <input type="text" name="memphone" placeholder="input phone"><br>
         HOBBY:
             축구<input type="checkbox" name="memhobby" value="soccer">,&nbsp;&nbsp;&nbsp;&nbsp;
             야구<input type="checkbox" name="memhobby" value="baseball">,&nbsp;&nbsp;&nbsp;&nbsp;
@@ -32,7 +37,12 @@
             </select>
             <br>
         기타:
-        <textarea name="memEtc"></textarea><br>
+        <textarea name="memEtc"></textarea>
+        <br>
+        <input type="color" value="#f00">
+        <input type="datetime-local">
+        <br>
+        <input type="file">
         <input type="submit" value="signup">
         <input type="reset" value="reset">
         <input type="button" value="button">
