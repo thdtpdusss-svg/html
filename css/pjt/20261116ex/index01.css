@@ -1,0 +1,57 @@
+/* 전체선택자*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 태그선택자*/
+p{
+    color: red;
+}
+div{
+    color: blue;
+}
+
+/* 클래스선택자*/
+.cat{
+    font-size: 0.8em;
+}
+.lion{
+    font-size: 1.2em;
+}
+
+/*ID선택자*/
+#magingga{
+    background-color: black;
+    color: white;
+}
+
+/*속성선택자 태그의 속성을 이용해서 특정 요소를 선택한다.*/
+input[type="text"]{
+    background-color: red;
+}
+input[name="memID"]{
+     background-color: red;
+}
+
+input[type="password"]{
+    font-size: 1.5em;
+}
+
+/*자손/후손 선택자: 계층구조를 이용해서 특정요소 선택*/
+/*자손 선택자*/
+section > p{
+    font-weight: bold;
+}
+section > div{
+    border: 1px solid blue;
+}
+
+/*후손 선택자*/
+section p {
+    font-size: 2em;
+}
+section div{
+    background-color: yellow;
+}
+
