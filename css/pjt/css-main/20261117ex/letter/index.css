@@ -1,0 +1,48 @@
+#wrap {
+    width: 800px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 80px 50px;
+    box-shadow: 3px 3px 3px rgba(220, 220, 220, .5);
+}
+
+/*
+#wrap div.to a {
+    color: #242424;
+    text-decoration: none;
+}
+*/
+/* 반응 선택자 */
+/*
+#wrap div.to a:hover {
+    text-decoration: underline;
+}
+*/
+#wrap div.to {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#wrap div.head {
+    width: 90%;
+    border-bottom: double #dadada;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#wrap div.body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#wrap div.body p {
+    margin: 20px 0;
+}
+
+#wrap div.from {
+    text-align: right;
+    font-style: italic;
+    margin-top: 50px;
+}

@@ -1,0 +1,75 @@
+/* 전체 선택자: HTML문서 내의 모든 요소(Element)를 선택한다. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 태그 선택자: 태그의 이름을 이용해서 특정 요소(Element)를 선택한다. */
+p {
+    color: red;
+}
+
+div {
+    color: blue;
+}
+
+/* class 선택자: 클래스 이름을 이용해서 요소를 선택한다. */
+.duck {
+    font-size: .8em;
+}
+
+.robot {
+    font-size: 1.5em;
+}
+
+/* ID 선택자: ID 이름을 이용해서 요소를 선택한다. */
+#magingga {
+    background-color: black;
+    color: white;
+}
+
+/* 속성 선택자: 태그의 속성을 이용해서 특정 요소를 선택한다. */
+/*
+input[type="text"] {
+    background-color: red;
+}
+*/
+
+input {
+    border: 3px solid gray;
+}
+
+input[name="memId"] {
+    background-color: red;
+}
+
+input[type="password"] {
+    font-size: 1.5em;
+}
+
+input[type="email"] {
+    color: blue;
+}
+
+/* 자손/후손 선택자: 계층구조를 이용해서 특정 요소를 선택한다. */
+/* 자손 */
+section > p {
+    font-weight: bold;
+}
+
+section > div {
+    border: 1px solid blue;
+}
+
+/* 후손 */
+section p {
+    font-size: 2em;
+}
+
+section div {
+    background-color: yellow;
+}
+
+section h3 {
+    color: red;
+}
