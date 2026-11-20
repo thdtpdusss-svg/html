@@ -1,0 +1,142 @@
+#wrap {
+    width: 800px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#wrap div.language {
+    text-align: right;
+}
+
+#wrap div.language select {
+    padding: 5px 8px;
+    border: 1px solid rbga(200, 200, 200, .9);
+    border-radius: 3px;
+}
+
+#wrap div.logo {
+    margin: 60px 0px 35px 0px;
+
+}
+
+
+#wrap div.login_form {
+    width: 492px;
+    margin: 0 auto;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+#wrap div.login_form > ul {
+    width: 450px;
+    margin: 0 auto;
+}
+
+#wrap div.login_form > ul > li {
+    width: 150px;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#wrap div.login_form > ul > li:nth-child(1) {
+    border-radius: 5px 0px 0px 5px;
+}
+
+#wrap div.login_form > ul > li:nth-child(3) {
+    border-radius: 0 5px 5px 0;
+}
+
+#wrap div.login_form > ul > li:hover {
+    background-color: #f8f8f8;
+}
+
+#wrap div.login_form > input {
+    width: 410px;
+    border: 1px solid #dadada;
+    padding: 15px 20px;
+    font-size: 1.1em;
+    outline: none;
+}
+
+#wrap div.login_form > input[name="status_login"] {
+    padding-left: 5px;
+}
+#wrap div.login_form > input[name="m_id"] {
+    margin-top: 15px;
+    border-radius: 5px 5px 0 0 ;
+}
+
+#wrap div.login_form > div span {
+    margin-left: 5px;
+}
+
+
+#wrap  div.login_form > div {
+    width: 450px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#wrap div.find_member {
+    width: 450px;
+    margin: 20px auto 40px;
+    font-size: .9em;
+}
+
+#wrap  div.login_form > div > button {
+    width: 450px;
+    margin-top: 22px;
+    background-color: #03c75a;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 1.5em;
+    border: 0;
+    cursor: pointer;
+}
+
+#wrap div.find_member > a {
+    margin: 0 5px;
+    color: rgba(0, 0, 0, .4);
+    font-size: .9em;
+}
+
+#wrap div.ad {
+    width: 460px;
+    height: 147px;
+    margin: 0 auto 60px;
+}
+
+#wrap div.office {
+    width: 500px;
+    margin: 0 auto 60px;
+}
+
+#wrap div.office > p {
+    margin-top: 10px;
+
+}
+
+#wrap div.office > p:nth-child(1) a {
+    font-size: .9em;
+    color: rgba(100, 100, 100, .8);
+}
+
+#wrap div.office > p:nth-child(2) {
+    font-size: .9em;
+}
+
+#wrap div.office > p:nth-child(2) img {
+    min-width: 80px;
+    max-width: 80px;
+    vertical-align: middle;
+}
+#wrap div.office > p:nth-child(2) span {
+    margin-left: ;
+    color: rgba(100, 100, 100, .8);
+}

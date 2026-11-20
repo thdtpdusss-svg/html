@@ -1,0 +1,14 @@
+#wrap {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.letter_list {
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.letter_wrap {
+    width: 70%;
+}

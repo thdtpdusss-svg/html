@@ -1,0 +1,27 @@
+#wrap {
+    width: 345px;
+    margin: 10px auto;
+}
+
+#wrap li.item_wrap {
+    margin: 0 4px;
+}
+
+#wrap li.item_wrap > div img {
+    min-width: 107px;
+    max-width: 107px;
+
+}
+
+#wrap li.item_wrap > div:nth-child(2) p {
+    font-size: .8em;
+    text-align: center;
+}
+
+#wrap li.item_wrap > div:nth-child(2) p:nth-child(1){
+    font-weight: bold;
+}
+
+#wrap ul.item {
+    margin-bottom: 15px;
+}

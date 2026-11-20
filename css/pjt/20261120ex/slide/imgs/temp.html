@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        .box_red{
+            width: 100px; height: 200px;
+            background-color: red;
+            position: sticky;
+        }
+
+        .box_green{
+            width: 100px; height: 200px;
+            background-color: #0f0;
+            position: relative;
+            /*상대적위치*/
+            top: 50px;
+            right: 100px;
+        }
+
+        .box_blue{
+            width: 100px; height: 200px;
+            background-color: rgb(0, 26, 255);
+            position: absolute;
+            /*상대적위치*/
+            top: 50px;
+            right: 100px;
+        }
+
+        .box_black{
+            width: 100px; height: 200px;
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            /*고정위치*/
+            top: 200px;
+            right: 500px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="box_red">
+        RED
+    </div>
+
+    <div class="box_green">
+        GREEN
+    </div>
+
+    <div class="box_bule">
+        BLUE
+    </div>
+
+    <div class="box_black">
+        BLACK
+    </div>
+
+
+
+</body>
+</html>
