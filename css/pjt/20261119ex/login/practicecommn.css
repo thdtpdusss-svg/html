@@ -1,26 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-#wrap{
+div {
     color: #242424;
 }
 
 a {
     text-decoration: none;
+    color: #242424;
 }
 
-a.hover {
+a:hover {
     text-decoration: underline;
 }
 
 ul {
     overflow: hidden;
-
 }
 
 li {
+    float: left;
     list-style: none;
-
 }
