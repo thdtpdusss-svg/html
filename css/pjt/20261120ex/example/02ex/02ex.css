@@ -1,0 +1,42 @@
+#wrap div.top p {
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+}
+
+#wrap div.top p:nth-child(2) {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#wrap div.receipt table {
+    border-collapse: collapse;
+}
+
+#wrap div.receipt table th {
+    padding: 7px;
+    border-top: 1px dashed #dadada;
+    text-align: center;
+}
+
+#wrap div.receipt table td {
+    border-top: 1px dashed #dadada;
+    border-bottom: 1px dashed #dadada;
+    text-align: center;
+    padding: 10px;
+}
+
+#wrap div.total {
+    margin-top: 50px;
+    text-align: right;
+    margin: 50px auto;
+    border-top: double #dadada;
+    border-bottom: double #dadada;
+    font-size: .9em;
+    line-height: 25px;
+}
+
+#wrap div.total td:nth-child(2) {
+    width: 120px;
+
+}
